@@ -1,0 +1,10 @@
+Connection to configuration server:
+
+1) Agregar la dependencia de Spring Cloud Config ==> Config Client
+2) Creación del fichero bootstrap.properties con sus configuraciones.
+3) Opcional: agregar decorador @EnableEurekaClient en clase principal
+
+Proceso:
+
+1- El microservicio se conecta primero con el servidor de configuraciones, obtiene las mismas, y luego 
+se registra en Eureka.
