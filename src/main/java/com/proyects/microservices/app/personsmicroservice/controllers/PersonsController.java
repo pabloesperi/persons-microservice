@@ -28,7 +28,7 @@ import com.proyects.microservices.app.personsmicroservice.service.IPersonService
 @RequestMapping(value = "/api")
 public class PersonsController {
 	
-	private static Logger logger = LoggerFactory.getLogger(PersonsController.class);
+	private static Logger logger =  LoggerFactory.getLogger(PersonsController.class);
 	
 	@Autowired
 	private IPersonService ps;
