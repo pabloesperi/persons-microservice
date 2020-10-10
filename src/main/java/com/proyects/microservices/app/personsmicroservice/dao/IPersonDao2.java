@@ -7,7 +7,8 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.proyects.microservices.app.personsmicroservice.models.Person;
+//import com.proyects.microservices.app.personsmicroservice.models.Person;
+import com.proyects.microservices.app.commonsmicroservice.models.Person;
 
 @Repository
 public interface IPersonDao2 extends CrudRepository<Person, Long>{

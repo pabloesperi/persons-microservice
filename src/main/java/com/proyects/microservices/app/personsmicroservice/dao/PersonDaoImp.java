@@ -8,7 +8,8 @@ import javax.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.proyects.microservices.app.personsmicroservice.models.Person;
+//import com.proyects.microservices.app.personsmicroservice.models.Person;
+import com.proyects.microservices.app.commonsmicroservice.models.Person;
 
 @Repository
 public class PersonDaoImp implements IPersonDao{

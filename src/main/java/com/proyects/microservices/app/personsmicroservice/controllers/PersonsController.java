@@ -20,12 +20,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.proyects.microservices.app.personsmicroservice.models.Person;
+//import com.proyects.microservices.app.personsmicroservice.models.Person;
+import com.proyects.microservices.app.commonsmicroservice.models.Person;
+
 import com.proyects.microservices.app.personsmicroservice.service.IPersonService;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
-@RequestMapping(value = "/api")
+//@RequestMapping(value = "/api")
 public class PersonsController {
 	
 	private static Logger logger = LoggerFactory.getLogger(PersonsController.class);

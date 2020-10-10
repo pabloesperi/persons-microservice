@@ -7,7 +7,8 @@ import org.springframework.stereotype.Service;
 
 import com.proyects.microservices.app.personsmicroservice.dao.IPersonDao2;
 import com.proyects.microservices.app.personsmicroservice.dao.PersonDaoImp;
-import com.proyects.microservices.app.personsmicroservice.models.Person;
+//import com.proyects.microservices.app.personsmicroservice.models.Person;
+import com.proyects.microservices.app.commonsmicroservice.models.Person;
 
 @Service
 public class PersonServiceImp implements IPersonService {
