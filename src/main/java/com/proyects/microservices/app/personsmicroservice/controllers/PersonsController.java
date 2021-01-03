@@ -27,7 +27,7 @@ import com.proyects.microservices.app.commonsmicroservice.models.Person;
 import com.proyects.microservices.app.personsmicroservice.service.IPersonService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
+@CrossOrigin(origins = "http://localhost:4200")
 //@RequestMapping(value = "/api")
 public class PersonsController {
 	

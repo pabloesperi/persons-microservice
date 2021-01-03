@@ -1,0 +1,1 @@
+INSERT INTO PERSONS VALUES ('3', '643', 35, 'La Plata', 'Argentina',	str_to_date('18,12,1982', '%d,%m,%Y'), '29763233', 'pablo_e@hotmail.com', '677182520', 'Pablo', '28010', 'M', 'Valencia',  'Explorador Andrés', 'Esperi');
